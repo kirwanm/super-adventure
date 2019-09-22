@@ -1,0 +1,40 @@
+<style>
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: burlywood;
+}
+header {
+    width: 1000px;
+    height: 750px;
+    margin: auto;
+}
+
+header #content {
+    height: 1000px;
+    background-color: #FFFFCC;
+    padding: 30px;
+}
+
+header #content p img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+header #content p {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+footer {
+    height: 26px;
+    background-color: #280E04;
+    color: #FFFFFF;
+    padding-top: 14px;
+    padding-left: 20px;
+}
+</style>

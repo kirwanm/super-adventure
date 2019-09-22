@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(235, 226, 215);
+  background-image: url("./noodle2_Photo_by_The_Creative_Exchange_on_Unsplash.jpg");
+  /*background-position: center center;*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#content_left {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  font-size: 50px;
+  margin: 600px 0 0 50px;
+  height: 70px;
+  width: 390px;
+  background-color: rgba(129, 129, 126, 0.479);
+  padding: 10px 0 0 10px;
+  color: antiquewhite;
+} 
+
+#content_right {
+  position: absolute;
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  margin: 600px 0 0 600px;
+  height: 200px;
+  overflow: auto;
+  color: rgb(31, 30, 25);
+  text-shadow: wheat 1px 1px;
+}
+
+#content_right_src {
+  font-size: 10px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  margin: 720px 20px 0 50px;
+  color: honeydew;
+  font-family: "Rubik", serif;
+  font-size: 30px;
+}
+footer a {
+  color: honeydew;
+}
